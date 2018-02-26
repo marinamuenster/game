@@ -15,3 +15,10 @@ class Character:
         self.y+=ydir
     def draw(self, surf):
         pygame.draw.rect(surf,RED,(self.x,self.y,10,10))
+
+    # you'll probably also want a 
+    def reachFood(self, obj):
+        pass
+    
+    def hitRack(self, obj):
+        pass
